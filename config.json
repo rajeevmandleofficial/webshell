@@ -1,33 +1,28 @@
 {
   "ascii": [
-    "███████╗██╗  ██╗███████╗██╗     ██╗",
-    "██╔════╝██║  ██║██╔════╝██║     ██║",
-    "███████╗███████║█████╗  ██║     ██║",
-    "╚════██║██╔══██║██╔══╝  ██║     ██║",
-    "███████║██║  ██║███████╗███████╗███████╗",
-    "╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝"
+    "██████╗  █████╗      ██╗███████╗███████╗██╗   ██╗",
+    "██╔══██╗██╔══██╗     ██║██╔════╝██╔════╝██║   ██║",
+    "██████╔╝███████║     ██║█████╗  █████╗  ██║   ██║",
+    "██╔══██╗██╔══██║██   ██║██╔══╝  ██╔══╝  ╚██╗ ██╔╝",
+    "██║  ██║██║  ██║╚█████╔╝███████╗███████╗ ╚████╔╝ ",
+    "╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚══════╝╚══════╝  ╚═══╝  "
   ],
-  "title": "WebShell",
+  "title": "Rajeev Mandle | WebShell",
   "username": "visitor",
-  "hostname": "webshell",
-  "password": "050823",
+  "hostname": "rajeev",
+  "password": "admin",
   "repoLink": "https://github.com/nasan016/webshell",
   "social": {
-    "email": "your@email.com",
-    "github": "yourgithub",
-    "linkedin": "you"
+    "email": "",
+    "github": "",
+    "linkedin": "rajeevmandle"
   },
-  "aboutGreeting": "Hi stranger. Welcome to WebShell.",
+  "aboutGreeting": "Hi, I'm Rajeev Mandle — Software Engineer & AI Enthusiast.",
   "projects": [
     [
-      "GofeR",
-      "Vue.js reactivity in Go.",
-      "https://github.com/nasan016/gofer"
-    ],
-    [
-      "WebShell",
-      "Terminal styled website.",
-      "https://github.com/nasan016/webshell"
+      "DMRC-Predictive",
+      "SIH '24 Finalist - IoT predictive maintenance system.",
+      "https://tbf-sih-major-final-version.vercel.app/"
     ]
   ],
   "colors": {

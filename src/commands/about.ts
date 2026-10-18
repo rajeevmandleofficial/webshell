@@ -17,25 +17,33 @@ const createAbout = () : string[] => {
   about.push("<br>");
   about.push(command.aboutGreeting);
   about.push("<br>");
-  string += SPACE.repeat(2);
-  string += email;
-  string += SPACE.repeat(17 - EMAIL.length);
-  string += `<a target='_blank' href='mailto:${command.social.email}'>${command.social.email}</a>`;
-  about.push(string);
+  if (command.social.email && command.social.email.trim() !== "") {
+    string += SPACE.repeat(2);
+    string += email;
+    string += SPACE.repeat(17 - EMAIL.length);
+    string += `<a target='_blank' href='mailto:${command.social.email}'>${command.social.email}</a>`;
+    about.push(string);
+  }
 
-  string = '';
-  string += SPACE.repeat(2);
-  string += github;
-  string += SPACE.repeat(17 - GITHUB.length);
-  string += `<a target='_blank' href='https://github.com/${command.social.github}'>github/${command.social.github}</a>`;
-  about.push(string);
+  if (command.social.github && command.social.github.trim() !== "") {
+    string = '';
+    string += SPACE.repeat(2);
+    string += github;
+    string += SPACE.repeat(17 - GITHUB.length);
+    const githubHandle = command.social.github.replace(/^https?:\/\/(www\.)?github\.com\/?/, '').replace(/\/$/, '');
+    string += `<a target='_blank' href='https://github.com/${githubHandle}'>github/${githubHandle}</a>`;
+    about.push(string);
+  }
 
-  string = '';
-  string += SPACE.repeat(2);
-  string += linkedin;
-  string += SPACE.repeat(17 - LINKEDIN.length);  
-  string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>linkedin/${command.social.linkedin}</a>`;
-  about.push(string);
+  if (command.social.linkedin && command.social.linkedin.trim() !== "") {
+    string = '';
+    string += SPACE.repeat(2);
+    string += linkedin;
+    string += SPACE.repeat(17 - LINKEDIN.length);  
+    const linkedinHandle = command.social.linkedin.replace(/^https?:\/\/(www\.)?linkedin\.com\/in\/?/, '').replace(/\/$/, '');
+    string += `<a target='_blank' href='https://www.linkedin.com/in/${linkedinHandle}'>linkedin/${linkedinHandle}</a>`;
+    about.push(string);
+  }
 
   about.push("<br>");
   return about
