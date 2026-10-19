@@ -1,7 +1,7 @@
 # [WebShell | Terminal Portfolio Website](https://webshellx.vercel.app/)
 
 <div align="center">
-  <img alt="Rajeev Mandle - WebShell Terminal Portfolio Banner" src="https://raw.githubusercontent.com/nasan016/webshell/main/res/banner.png">
+  <img alt="banner" src="https://raw.githubusercontent.com/nasan016/webshell/main/res/banner.png">
 </div>
 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
@@ -19,7 +19,7 @@ Create your own terminal styled website! Check out [term.nasan.dev](https://term
 
 ## ???
 <div align="center">
-  <img alt="Rajeev Mandle - Secret Easter Egg Preview" src="https://raw.githubusercontent.com/nasan016/webshell/main/res/secret.png">
+  <img alt="banner" src="https://raw.githubusercontent.com/nasan016/webshell/main/res/secret.png">
 </div>
 How did we get here?
 
